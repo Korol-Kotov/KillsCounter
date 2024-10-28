@@ -1,0 +1,9 @@
+name: KillsCounter
+version: '1.0'
+main: me.korolkotov.killscounter.Main
+api-version: '1.16'
+author: KoroLKotov
+
+commands:
+  kills:
+    usage: /kills
