@@ -1,0 +1,7 @@
+messages:
+  specify-player: "<red>Пожалуйста, укажите имя игрока."
+  player-not-found: "<red>Игрок <yellow>%player% <red>не найден."
+  player-has-no-kills: "<yellow>%player% <red>еще не совершал убийств."
+  player-kills: "<green>Игрок <yellow>%player% <green>совершил <yellow>%kills% <green>убийств."
+  kill-notification: "<green>Вы убили <yellow>%victim%<green>. Всего убийств: <yellow>%kills%."
+  death-notification: "<red>Вас убил <yellow>%killer%<red>. Удачи в следующем раунде!"

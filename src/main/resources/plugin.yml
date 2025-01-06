@@ -1,9 +1,16 @@
 name: KillsCounter
-version: '${project.version}'
+version: 1.0-SNAPSHOT
 main: me.korolkotov.killscounter.Main
-api-version: '1.16'
-author: KoroLKotov
+api-version: 1.20
 
 commands:
   kills:
-    usage: /kills
+    description: Shows the number of kills for a specific player.
+    usage: /kills <player>
+    permission: killscounter.kills
+    permission-message: "You do not have permission to use this command."
+
+permissions:
+  killscounter.kills:
+    description: Allows the use of the /kills command.
+    default: true

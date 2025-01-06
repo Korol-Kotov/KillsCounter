@@ -1,0 +1,50 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:me.korolkotov.killscounter.config////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.config/index.html
+$dokka.location:me.korolkotov.killscounter.config/ConfigurationManager///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.config/-configuration-manager/index.html
+$dokka.location:me.korolkotov.killscounter.config/ConfigurationManager/ConfigurationManager/#java.io.File/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.config/-configuration-manager/-configuration-manager.html
+$dokka.location:me.korolkotov.killscounter.config/ConfigurationManager/config/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.config/-configuration-manager/config.html
+$dokka.location:me.korolkotov.killscounter.config/ConfigurationManager/reload/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.config/-configuration-manager/reload.html
+$dokka.location:me.korolkotov.killscounter.data////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.data/index.html
+$dokka.location:me.korolkotov.killscounter.data/DatabaseManager///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.data/-database-manager/index.html
+$dokka.location:me.korolkotov.killscounter.data/DatabaseManager/DatabaseManager/#org.bukkit.configuration.file.YamlConfiguration#java.io.File/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.data/-database-manager/-database-manager.html
+$dokka.location:me.korolkotov.killscounter.data/DatabaseManager/close/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.data/-database-manager/close.html
+$dokka.location:me.korolkotov.killscounter.data/DatabaseManager/getConnection/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.data/-database-manager/get-connection.html
+$dokka.location:me.korolkotov.killscounter.di////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/index.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/index.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector/counter/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/counter.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector/init/#me.korolkotov.killscounter.Main/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/init.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector/killsCommand/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/kills-command.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector/messageService/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/message-service.html
+$dokka.location:me.korolkotov.killscounter.di/DependencyInjector/shutdown/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.di/-dependency-injector/shutdown.html
+$dokka.location:me.korolkotov.killscounter.domain////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/index.html
+$dokka.location:me.korolkotov.killscounter.domain/Counter///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-counter/index.html
+$dokka.location:me.korolkotov.killscounter.domain/Counter/Counter/#me.korolkotov.killscounter.data.DatabaseManager/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-counter/-counter.html
+$dokka.location:me.korolkotov.killscounter.domain/Counter/addKill/#java.util.UUID#java.util.UUID/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-counter/add-kill.html
+$dokka.location:me.korolkotov.killscounter.domain/Counter/getKills/#java.util.UUID/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-counter/get-kills.html
+$dokka.location:me.korolkotov.killscounter.domain/Counter/save/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-counter/save.html
+$dokka.location:me.korolkotov.killscounter.domain/MessageService///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-message-service/index.html
+$dokka.location:me.korolkotov.killscounter.domain/MessageService/MessageService/#me.korolkotov.killscounter.config.ConfigurationManager#java.io.File/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-message-service/-message-service.html
+$dokka.location:me.korolkotov.killscounter.domain/MessageService/reloadMessages/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-message-service/reload-messages.html
+$dokka.location:me.korolkotov.killscounter.domain/MessageService/sendMessage/#org.bukkit.command.CommandSender#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.domain/-message-service/send-message.html
+$dokka.location:me.korolkotov.killscounter.listeners////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.listeners/index.html
+$dokka.location:me.korolkotov.killscounter.listeners/PlayerKillsListener///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.listeners/-player-kills-listener/index.html
+$dokka.location:me.korolkotov.killscounter.listeners/PlayerKillsListener/PlayerKillsListener/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.listeners/-player-kills-listener/-player-kills-listener.html
+$dokka.location:me.korolkotov.killscounter.listeners/PlayerKillsListener/onPlayerDeath/#org.bukkit.event.entity.PlayerDeathEvent/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.listeners/-player-kills-listener/on-player-death.html
+$dokka.location:me.korolkotov.killscounter.presentation.commands////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.presentation.commands/index.html
+$dokka.location:me.korolkotov.killscounter.presentation.commands/KillsCommand///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.presentation.commands/-kills-command/index.html
+$dokka.location:me.korolkotov.killscounter.presentation.commands/KillsCommand/KillsCommand/#me.korolkotov.killscounter.domain.Counter#me.korolkotov.killscounter.domain.MessageService/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.presentation.commands/-kills-command/-kills-command.html
+$dokka.location:me.korolkotov.killscounter.presentation.commands/KillsCommand/onCommand/#org.bukkit.command.CommandSender#org.bukkit.command.Command#kotlin.String#kotlin.Array[kotlin.String]/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter.presentation.commands/-kills-command/on-command.html
+$dokka.location:me.korolkotov.killscounter////PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/index.html
+$dokka.location:me.korolkotov.killscounter/Main///PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/-main/index.html
+$dokka.location:me.korolkotov.killscounter/Main/Main/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/-main/-main.html
+$dokka.location:me.korolkotov.killscounter/Main/configurationManager/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/-main/configuration-manager.html
+$dokka.location:me.korolkotov.killscounter/Main/onDisable/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/-main/on-disable.html
+$dokka.location:me.korolkotov.killscounter/Main/onEnable/#/PointingToDeclaration/-kills -counter/me.korolkotov.killscounter/-main/on-enable.html
+me.korolkotov.killscounter
+me.korolkotov.killscounter.config
+me.korolkotov.killscounter.data
+me.korolkotov.killscounter.di
+me.korolkotov.killscounter.domain
+me.korolkotov.killscounter.listeners
+me.korolkotov.killscounter.presentation.commands
