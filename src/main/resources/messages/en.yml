@@ -1,0 +1,7 @@
+messages:
+  specify-player: "<red>Please specify a player."
+  player-not-found: "<red>Player <yellow>%player% <red>not found."
+  player-has-no-kills: "<yellow>%player% <red>has no kills yet."
+  player-kills: "<green>Player <yellow>%player% <green>has <yellow>%kills% <green>kills."
+  kill-notification: "<green>You killed <yellow>%victim%<green>. Total kills: <yellow>%kills%."
+  death-notification: "<red>You were killed by <yellow>%killer%<red>. Better luck next time!"

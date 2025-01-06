@@ -1,6 +1,24 @@
+# Основные настройки плагина
+plugin:
+  language: "en" # Язык плагина: en, ru, etc.
+
+# Настройки базы данных
 database:
-  host: 'localhost'
-  port: 3306
-  database: 'database'
-  user: 'root'
-  password: '123'
+  type: "sqlite" # Возможные значения: sqlite, mysql
+
+  # MySQL настройки (используются только при type: mysql)
+  mysql:
+    host: "localhost"
+    port: "3306"
+    database: "minecraft"
+    user: "root"
+    password: "password"
+    pool-size: 10
+    minimum-idle: 5
+    idle-timeout: 600000
+    connection-timeout: 30000
+    max-lifetime: 1800000
+
+  # SQLite настройки (используются только при type: sqlite)
+  sqlite:
+    file: "database.sqlite" # Имя файла базы данных
